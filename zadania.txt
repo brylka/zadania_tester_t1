@@ -1,0 +1,100 @@
+1. Wyświetl liczby od 0 do 10 z separatorem pomiędzy liczbami znakiem &.
+Oczekiwany wynik: 0&1&2&3&4&5&6&7&8&9&10& lub bez ostatniego &
+
+2. Wyświetl wszystkie parzyste liczby od 2 do 20.
+Oczekiwany wynik: 2 4 6 8 10 12 14 16 18 20
+
+3. Oblicz i wypisz sumę liczb od 1 do 100.
+Oczekiwany wynik: 5050
+
+4. Wpisz słowo i sprawdź, czy jest ono dłuższe niż 5 liter. Jeśli tak, wyświetl "Długie słowo!", w przeciwnym razie "Krótkie słowo!".
+Oczekiwany wynik dla słowa "Python": Długie słowo!
+Podpowiedź: len("Python") zwraca długośc słowa Python.
+
+5. Dla danej listy liczb [1, 2, 3, 4, 5], zwiększ każdą liczbę o 1 i wydrukuj nową listę.
+Oczekiwany wynik: [2, 3, 4, 5, 6]
+
+6. Sprawdź, czy podane słowo kończy się literą 'a'. Jeśli tak, wyświetl "Kończy się na 'a'!", w przeciwnym razie "Nie kończy się na 'a'!".
+Oczekiwany wynik dla słowa "Kamera": Kończy się na 'a'!
+
+7. Przyjmij liczbę od użytkownika i wyświetl "Liczba dodatnia", jeśli liczba jest większa od 0, "Liczba ujemna", jeśli jest mniejsza od 0, lub "Zero", jeśli jest równa 0.
+Oczekiwany wynik dla liczby -5: Liczba ujemna
+
+8. Wydrukuj "Tak", jeśli bieżący rok jest rokiem przestępnym, w przeciwnym razie "Nie". (Możesz założyć, że bieżący rok to 2024).
+Oczekiwany wynik: Tak
+
+9. Wyświetl słowo "Python" pięć razy, każde w nowej linii, używając pętli.
+Oczekiwany wynik:
+Python
+Python
+Python
+Python
+Python
+
+10. Dla podanej listy owoców ['jabłko', 'banan', 'mango', 'kiwi'], znajdź najdłuższe słowo i wydrukuj je.
+Oczekiwany wynik: jabłko
+
+11. Napisz program, który zapyta użytkownika o cenę trzech produktów, a następnie obliczy i wydrukuje całkowity koszt zakupów.
+Oczekiwany wynik: Całkowity koszt: [suma cen produktów]
+
+12. Wyświetl kwadraty liczb od 1 do 10.
+Oczekiwany wynik: 1 4 9 16 25 36 49 64 81 100
+
+13. Zapytaj użytkownika o imię i powiedz "Cześć" z tym imieniem.
+Oczekiwany wynik dla imienia Anna: Cześć Anna!
+
+14. Napisz program, który obliczy średnią z trzech podanych przez użytkownika liczb.
+Oczekiwany wynik dla liczb 4, 8, 15: Średnia: 9
+
+15. Sprawdź, czy lista ['Python', 'Java', 'C#', 'JavaScript'] zawiera język 'Python'. Jeśli tak, wydrukuj "Python jest na liście!", w przeciwnym razie "Brak Pythona na liście!".
+Oczekiwany wynik: Python jest na liście!
+
+16. Dla liczby podanej przez użytkownika, wydrukuj "Dziwna liczba", jeśli liczba jest nieparzysta lub parzysta ale w zakresie od 6 do 20 włącznie. W przeciwnym razie wydrukuj "Zwykła liczba".
+Oczekiwany wynik dla liczby 22: Zwykła liczba
+
+17. Utwórz prosty kalkulator, który zapyta użytkownika o dwi liczby oraz operację (dodawanie, odejmowanie, mnożenie, dzielenie) do wykonania, a następnie wyświetli wynik.
+Oczekiwany wynik dla liczb 5 i 3 oraz operacji dodawanie: Wynik: 8
+
+18. Wyświetl listę liczb od 1 do 20, ale dla liczb podzielnych przez 3 wydrukuj "Fizz", a dla liczb podzielnych przez 5 wydrukuj "Buzz". Dla liczb podzielnych zarówno przez 3, jak i przez 5 wydrukuj "FizzBuzz".
+Oczekiwany wynik: 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz
+
+19. Zapytaj użytkownika o temperaturę w stopniach Celsiusza i przelicz ją na stopnie Fahrenheit. Wydrukuj wynik.
+Oczekiwany wynik dla 0°C: 32°F
+
+20. Napisz program, który dla podanej listy liczb znajdzie minimum i maksimum bez używania wbudowanych funkcji min() i max().
+Oczekiwany wynik dla listy [1, 2, 3, 4, 5]: Minimum: 1, Maksimum: 5
+
+21. Zapytaj użytkownika o jego wiek i wydrukuj, ile lat minęło od osiągnięcia przez niego pełnoletności lub ile lat zostało do jej osiągnięcia.
+Oczekiwany wynik dla wieku 20 lat: Minęły 2 lata od osiągnięcia pełnoletności.
+
+22. Napisz program, który wyświetli pierwszych 10 liczb ciągu Fibonacciego. (Pierwsze dwie liczby to 0 i 1, a każda kolejna to suma dwóch poprzednich).
+Oczekiwany wynik: 0 1 1 2 3 5 8 13 21 34
+
+23. Przyjmij od użytkownika liczbę i sprawdź, czy jest ona liczbą pierwszą (liczba większa od 1, mająca tylko dwa dzielniki: 1 i samą siebie).
+Oczekiwany wynik dla liczby 11: Liczba pierwsza.
+
+24. Wydrukuj listę wszystkich liczb naturalnych mniejszych od 10, które są jednocześnie wielokrotnościami 2 lub 3.
+Oczekiwany wynik: 2, 3, 4, 6, 8
+
+25. Utwórz listę zawierającą tylko parzyste elementy z listy liczb [1, 2, 3, 4, 5, 6].
+Oczekiwany wynik: [2, 4, 6]
+
+26. Dla podanej listy słów wydrukuj tylko te, które zaczynają się na literę 's'.
+Oczekiwany wynik dla listy ['jabłko', 'śliwka', 'gruszka', 'sosna']: 'sosna'
+
+27. Wydrukuj piramidę z gwiazdek o wysokości podanej przez użytkownika.
+Dla wysokości 5 piramida powinna wyglądać tak:
+    *
+   ***
+  *****
+ *******
+*********
+
+28. Sprawdź, czy podany przez użytkownika ciąg znaków zawiera co najmniej jedną cyfrę.
+Oczekiwany wynik dla ciągu "Python3": Zawiera cyfrę.
+
+29. Napisz program, który zapyta użytkownika o wysokość i podstawę trójkąta, a następnie obliczy i wydrukuje pole tego trójkąta.
+Oczekiwany wynik dla wysokości 5 i podstawy 10: Pole trójkąta: 25
+
+30. Napisz funkcję, która przyjmie listę liczb i zwróci tylko te elementy, które są większe od średniej wszystkich liczb w liście.
+Oczekiwany wynik dla listy [1, 2, 3, 4, 5]: [4, 5]
