@@ -4,7 +4,6 @@ def sakamoto(d, m, y):
     if m < 3:
         y -= 1
     result = (y + y//4 - y//100 + y//400 + t[m-1] + d) % 7
-    print(result)
     return result if result != 0 else 7
 
 def max_day(m, y):
@@ -34,7 +33,7 @@ print("Pn Wt Śr Cz Pt \033[33mSo \033[31mNd\033[0m")
 # Jest to liczba startowa pomniejszona o jeden
 for _ in range(start-1):
     print("  ", end=" ")
- #print(end=" x ")
+    #print(end=" x ")
 
 # Pętla główna drukująca wszystkie dni danego miesiąca
 for a in range(1,ilosc+1):
