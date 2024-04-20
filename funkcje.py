@@ -2,7 +2,9 @@ def witaj(imie):
     print(f"Witaj {imie}!")
 
 def idz_umyj_rece(jak_brudne):
-    print("Idę umyć ręce!")
+    #if jak_brudne in ['czyste', 'lekko', 'bardzo']:
+    if jak_brudne == 'czyste' or jak_brudne == 'lekko' or jak_brudne == 'bardzo':
+        print("Idę umyć ręce!")
     if jak_brudne == 'czyste':
         print('Po co przychodzisz do łazienki jak masz czyste ręce?')
     elif jak_brudne == 'lekko':
