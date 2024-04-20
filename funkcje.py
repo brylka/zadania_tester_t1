@@ -1,8 +1,7 @@
-def witaj():
-    print("Witaj Świecie!")
+def witaj(imie):
+    print(f"Witaj {imie}!")
 
 def idz_umyj_rece():
     print("Idę umyć ręce!")
 
-witaj()
-idz_umyj_rece()
+witaj(input("Podaj swoje imię: "))
